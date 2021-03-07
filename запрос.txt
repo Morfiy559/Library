@@ -1,0 +1,1 @@
+SELECT * FROM (категории JOIN третья таблица соединяющая категории и продукты USING (dep_id)) JOIN продукты USING (emp_id);
